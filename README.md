@@ -4,6 +4,8 @@
 
 #### This comprehensive data analysis, meticulously conducted by Marc Rivera(https://www.linkedin.com/in/marcrivera9/), provides an insightful examination into the sales performance of supermarket chain in Turkey. 
 
+link to dashboard: (https://public.tableau.com/app/profile/marc.rivera/viz/SalesPerformanceDashboard_16996696684240/Dashboard1)
+
 ## OBEJECTIVE
 
 ### Main Objective: Uncovering Customer Behavior and Revenue Patterns for Superstore
