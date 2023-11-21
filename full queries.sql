@@ -40,6 +40,9 @@ SELECT city, AVG(rating) AS avg_rating
 FROM sales
 GROUP BY city;
 -- The three cities have similar ratings ranging from 6.8 - 7.07
+SELECT product_line, AVG(rating) AS avg_rating
+FROM sales
+GROUP BY product_line;
 
 -- Top 5 Selling products
 SELECT product_line, SUM(quantity) AS total_quantity_sold
