@@ -114,6 +114,16 @@ ORDER BY year, month;
 -- 2, 2019, 97219.58, 92589.88, 4629.70
 -- 3, 2019, 109455.74, 104243.34, 5212.40
 
+SELECT
+    product_line,
+    SUM(total) AS total_sales,
+    SUM(cogs) AS total_cogs,
+    SUM(gross_income) AS total_profit
+FROM sales
+GROUP BY  product_line
+ORDER BY  total_profit DESC;
+
+
 -- Avg taxes 
 SELECT
     AVG(tax / total) * 100 AS avg_tax_rate
