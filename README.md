@@ -22,7 +22,7 @@
 
 ### 1. Collect Data.
 
-* #### The dataset at hand originates from Kaggle and specifically focuses on the first-quarter sales of a supermarket chain in Turkey. Accessible at this Kaggle link: (https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales), the dataset provides a comprehensive overview of sales data during the initial quarter. Exploring this dataset offers valuable insights into the performance and dynamics of the supermarket chain, laying the groundwork for a detailed analysis of sales trends and customer behavior in the Turkish market.
+* ### The dataset at hand originates from Kaggle and specifically focuses on the first-quarter sales of a supermarket chain in Turkey. Accessible at this Kaggle link: (https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales), the dataset provides a comprehensive overview of sales data during the initial quarter. Exploring this dataset offers valuable insights into the performance and dynamics of the supermarket chain, laying the groundwork for a detailed analysis of sales trends and customer behavior in the Turkish market.
 
 ### 2. Ready Enviroment, set up database/tables to begin queries.
 
@@ -55,6 +55,43 @@
 ![quantity_sold](https://github.com/marcrivera9/Customer-Behavior-and-Revenue-Patterns-A-Superstore-Transaction-Analysis/assets/148594670/c4a76337-7b28-4a9b-a091-b4e658d76402)
 
 #### The data on quantity sold per product line provides valuable insights into the popularity of various items. "Electronic accessories" lead in quantity sold with 971 units, followed closely by "Food and beverages" with 952 units and "Sports and travel" with 920 units. This quantity sold ranking generally aligns with the product lines' total sales, indicating a correlation between popularity and revenue generation. The consistency in rankings implies that items with higher quantities sold tend to contribute more significantly to overall sales. This information is not only beneficial for understanding customer preferences but also serves as a valuable input for effective inventory management. It's important to note that while high quantities sold suggest popularity, consideration of price points and profit margins is crucial for a comprehensive analysis of sales dynamics.
+
+* #### Do sales show any correlation with whether a customer is a member or non-member?
+
+![customer type](https://github.com/marcrivera9/Customer-Behavior-and-Revenue-Patterns-A-Superstore-Transaction-Analysis/assets/148594670/cb21bf95-ae95-4d81-bdf5-b5db7d391a28)
+
+#### The provided data displays the average quantity sold for different product lines, categorized by customer membership status as either "Member" or "Normal." Across various product lines, "Members" consistently exhibit slightly higher average quantities sold compared to "Normal" customers. Notably, "Home and lifestyle" and "Health and beauty" stand out with the highest average quantities sold in both membership categories. Conversely, "Fashion accessories" consistently show lower quantities sold, suggesting a potential area for improvement or targeted strategies to boost sales in this product category. The data hints at a correlation between membership status and average quantity sold, providing valuable insights for tailoring marketing and sales strategies to different customer segments. Further analysis could delve into the specific factors influencing these quantity trends to optimize product offerings and enhance overall sales performance.
+
+* #### Which payment method reflects the highest sales?
+
+![payment_method](https://github.com/marcrivera9/Customer-Behavior-and-Revenue-Patterns-A-Superstore-Transaction-Analysis/assets/148594670/5939cd13-46fa-45b1-85cf-5ac50569ae59)
+
+#### The data reveals interesting insights into sales distribution across three payment methods: "Credit card," "Ewallet," and "Cash." Despite having the lowest transaction quantity, "Credit card" transactions contribute significantly to total sales, indicating a potentially higher average transaction value. "Ewallet" transactions, while slightly more numerous, also contribute substantially to total sales. Surprisingly, "Cash" transactions, though fewer in quantity, lead in total sales, suggesting that these transactions involve higher purchase amounts. This information provides valuable insights into customer payment preferences and transaction efficiency. Further analysis, considering factors such as average transaction value and customer behavior, could refine strategies related to payment processing and incentivize specific payment methods to optimize sales performance.
+
+* #### How does gender influence the contribution to product lines and the quantity of sales?
+
+![count_per_gender](https://github.com/marcrivera9/Customer-Behavior-and-Revenue-Patterns-A-Superstore-Transaction-Analysis/assets/148594670/e4440534-7fdb-4646-a885-30ec35b3289e)
+
+#### The data illustrates gender-specific trends in product line preferences and sales quantities. Both males and females show notable interest in "Fashion accessories" and "Electronic accessories," indicating shared preferences across genders. However, distinctions emerge in categories like "Food and beverages," where females exhibit slightly higher sales quantities, and "Fashion accessories," where females show a more pronounced preference. "Health and beauty" and "Sports and travel" appeal to both genders, suggesting broad cross-gender appeal. The data provides valuable insights for targeted marketing strategies, emphasizing potential areas for product promotion and inventory management to align with the diverse preferences of male and female customers.
+
+* #### Compute the aggregate sales, cost of goods sold (COGS), and profit for each month.
+  
+![first_cogs_](https://github.com/marcrivera9/Customer-Behavior-and-Revenue-Patterns-A-Superstore-Transaction-Analysis/assets/148594670/7d5754cb-5aa5-411b-b818-9bfdd9219df9)
+
+#### The provided data encapsulates the financial performance for the first quarter of 2019, outlining total sales, cost of goods sold (COGS), and profit for each respective month. In Month 1, total sales amounted to $116,292.11, generating a profit of $5,537.95. Month 2 witnessed total sales of $97,219.58, resulting in a profit of $4,629.70. For Month 3, total sales reached $109,455.74, with a profit of $5,212.40. This quarterly breakdown offers insights into the revenue generation, cost management, and overall financial dynamics during the initial three months of the specified year. Further analysis could delve into percentage growth, trends, or industry benchmarks for a more comprehensive evaluation.
+
+* #### Compute now per product line
+  
+![prodductline](https://github.com/marcrivera9/Customer-Behavior-and-Revenue-Patterns-A-Superstore-Transaction-Analysis/assets/148594670/39758e8c-839b-4fe8-bc84-34afcd8661b8)
+
+#### The presented data summarizes the financial performance of distinct product lines, encompassing total sales, cost of goods sold (COGS), and gross profit. "Food and beverages" emerge as the highest-performing product line with the top sales, followed closely by "Sports and travel" and "Electronic accessories." Conversely, "Health and beauty" demonstrates lower figures across sales, COGS, and gross profit, suggesting potential areas for improvement. The consistent ratios between sales, COGS, and gross profit across various product lines indicate a balanced approach to cost management and revenue generation. This comprehensive overview provides valuable insights for strategic decision-making, highlighting both strengths and areas with growth potential within the supermarket's product portfolio.
+
+
+
+
+
+
+
 
 
 
