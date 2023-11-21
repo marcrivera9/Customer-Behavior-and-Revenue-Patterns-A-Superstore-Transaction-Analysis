@@ -86,6 +86,14 @@
 
 #### The presented data summarizes the financial performance of distinct product lines, encompassing total sales, cost of goods sold (COGS), and gross profit. "Food and beverages" emerge as the highest-performing product line with the top sales, followed closely by "Sports and travel" and "Electronic accessories." Conversely, "Health and beauty" demonstrates lower figures across sales, COGS, and gross profit, suggesting potential areas for improvement. The consistent ratios between sales, COGS, and gross profit across various product lines indicate a balanced approach to cost management and revenue generation. This comprehensive overview provides valuable insights for strategic decision-making, highlighting both strengths and areas with growth potential within the supermarket's product portfolio.
 
+* #### Does the time of day influence the number/amount of sales/?
+
+![time_of_day](https://github.com/marcrivera9/Customer-Behavior-and-Revenue-Patterns-A-Superstore-Transaction-Analysis/assets/148594670/129bef09-984d-4dae-b397-7b9cc3b76705)
+
+#### The data reveals distinct patterns in the number of sales associated with different time intervals throughout the day. Peak sales occur during the late afternoon and early evening, notably at 19:00 (7:00 PM) with 113 sales. Afternoon hours from 13:00 (1:00 PM) to 15:00 (3:00 PM) also exhibit high sales activity. The morning and early afternoon show moderate sales, with the lowest occurring at 16:00 (4:00 PM). Evening sales maintain a reasonable level until 20:00 (8:00 PM). These insights can guide strategic decisions related to staffing, inventory management, and targeted marketing efforts during peak sales hours, optimizing overall business operations and customer satisfaction.
+
+* #### Lets see the metrics for each city
+
 
 
 
